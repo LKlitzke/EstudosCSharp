@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Exercicios Anteriores\**" />
+    <EmbeddedResource Remove="Exercicios Anteriores\**" />
+    <None Remove="Exercicios Anteriores\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\Enums\" />
+    <Folder Include="Entities\Exceptions\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>
